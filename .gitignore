@@ -1,0 +1,26 @@
+# Whitelist: publish only hand-written sources and project definition
+*
+!*/
+!.gitignore
+!README*
+!*.v
+!*.sv
+!*.vh
+!*.svh
+!*.vhd
+!*.mem
+!*.coe
+!*.xdc
+!*.tcl
+!*.xci
+!*.bd
+!*.xpr
+!*.py
+# never publish Vivado-generated folders (overrides the directory re-include above)
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.sim/
+**/*.gen/
+**/*.runs/
+**/.Xil/
